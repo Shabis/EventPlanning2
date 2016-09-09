@@ -8,7 +8,7 @@ In this application the user will be able to choose different aspects surroundin
 ### Setup/Installation Instructions
 ------
 
-You can view this project from my gh-pages website at http://shabis.github.io/java_EventPlanning
+You can view this project from my gh-pages website at http://shabis.github.io/EventPlanning
 
 <br/>
 
@@ -22,10 +22,11 @@ No known bugs.
 ### Specifications
 ------
 
-* xxxxx
-* xxxxx
-* xxxxx
-* xxxxx
+* This application will first ask if the user would like to inquire about an event.
+  * If they answer 'yes' it will begin asking questions to begin their quote.
+  * If they answer 'no' it will shut down the program from command.
+  * If they answer anything besides 'yes' or 'no', they will receive an error message and be prompted again.
+* When they answer 'yes' ask question and will then print out information about their request with a cost summary. The user is then prompted for an additional request.
 
 <br/>
 
