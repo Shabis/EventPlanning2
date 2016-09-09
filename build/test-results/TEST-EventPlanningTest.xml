@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="EventPlanningTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2016-09-09T23:36:21" hostname="epicodus-108.local" time="0.002">
+  <properties/>
+  <testcase name="EventPlanning_testRandomAnswers_Array" classname="EventPlanningTest" time="0.001"/>
+  <testcase name="EventPlanning_testRandomAnswersWithSecondNumberIncorrect_Array" classname="EventPlanningTest" time="0.0"/>
+  <testcase name="EventPlanning_testRandomAnswersWithThirdNumberCalculatingfromGuestTotal_Array" classname="EventPlanningTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
