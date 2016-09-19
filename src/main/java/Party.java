@@ -25,6 +25,7 @@ class Party {
   public int getPartyGuests() {
     return mGuests;
   }
+
   public void setPartyFood(int partyFood) {
     mFood = partyFood;
   }
@@ -32,13 +33,15 @@ class Party {
   public int getPartyFood() {
     return mFood;
   }
+
   public void setPartyBeverages(int partyBeverages) {
     mBeverages = partyBeverages;
   }
 
   public int getPartyBeverages() {
-    return mBeverages
+    return mBeverages;
   }
+
   public void setPartyMusic(int partyMusic) {
     mMusic = partyMusic;
   }
@@ -46,6 +49,7 @@ class Party {
   public int getPartyMusic() {
     return mMusic;
   }
+
   public void setPartyEntertainment(int partyEntertainment) {
     mEntertainment = partyEntertainment;
   }
@@ -53,11 +57,16 @@ class Party {
   public int getPartyEntertainment() {
     return mEntertainment;
   }
-  public void setPartyGiveway(int partyGiveway) {
+
+  public void setPartyGiveaway(int partyGiveaway) {
     mGiveaway = partyGiveaway;
   }
 
-  public int getPartyGiveway() {
-    return mGiveway;
+  public int getPartyGiveaway() {
+    return mGiveaway;
+  }
+
+  public int calculateTotalCost() {
+    return mFood + mBeverages + mMusic + mEntertainment +  mGiveaway;
   }
 }
