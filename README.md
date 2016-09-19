@@ -8,7 +8,11 @@ In this application the user will be able to choose different aspects surroundin
 ### Setup/Installation Instructions
 ------
 
-You can view this project from my gh-pages website at http://shabis.github.io/EventPlanning
+* In command prompt enter: git clone https://github.com/Shabis/EventPlanning2.git
+* In command prompt enter: cd EventPlanning2
+* In command prompt enter: gradle compileJava
+* In command prompt enter: cd build/classes/main
+* In command prompt enter: java App
 
 <br/>
 
