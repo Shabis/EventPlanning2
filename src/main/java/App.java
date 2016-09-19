@@ -6,7 +6,7 @@ public class App {
   public static void main(String[] args) {
     Console myConsole = System.console();
 
-    Party example = new Party("Summer Bash", 1000, 3, 2, 4, 3, 4000);
+    Party example = new Party();
 
     List<Party> allPartys = new ArrayList<Party>();
     allPartys.add(example);
