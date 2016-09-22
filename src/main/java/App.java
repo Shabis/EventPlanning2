@@ -69,7 +69,7 @@ public class App {
         System.out.println("Here are the details of your party: \n\n");
         System.out.println( "\t\t\t" + userParty.getPartyName().toUpperCase());
         System.out.println( "_______________________________________________________" );
-        System.out.println( "Total Number of Guests: " + userParty.getPartyGuests());
+        System.out.println( "Total Number of Guests: " + userGuests);
         System.out.println( "Total Food Cost \t\t\t\t $" + userParty.getPartyFood());
         System.out.println( "Total Beverage Cost \t\t\t\t $" + userParty.getPartyBeverages());
         System.out.println( "Total Music Cost \t\t\t\t $" + userParty.getPartyMusic());
