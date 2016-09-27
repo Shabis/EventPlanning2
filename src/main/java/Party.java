@@ -7,59 +7,43 @@ class Party {
   private int mEntertainment;
   private int mGiveaway;
 
-  public Party() {
-  }
+  public Party(String name, int guests, int food, int beverages, int music, int entertainment, int giveaway) {
+    mName = name;
+    mGuests = guests;
+    mFood = food;
+    mBeverages = beverages;
+    mMusic = music;
+    mEntertainment = entertainment;
+    mGiveaway = giveaway;
+    }
 
-  public void setPartyName(String partyName) {
-    mName = partyName;
-  }
+    int partyFood = 0;
+    int partyMusic = 0;
+    int partyBeverages = 0;
+    int partyEntertainment = 0;
 
   public String getPartyName() {
     return mName;
-  }
-
-  public void setPartyGuests(int partyGuests) {
-    mGuests = partyGuests;
   }
 
   public int getPartyGuests() {
     return mGuests;
   }
 
-  public void setPartyFood(int partyFood) {
-    mFood = partyFood;
-  }
-
   public int getPartyFood() {
     return mFood;
-  }
-
-  public void setPartyBeverages(int partyBeverages) {
-    mBeverages = partyBeverages;
   }
 
   public int getPartyBeverages() {
     return mBeverages;
   }
 
-  public void setPartyMusic(int partyMusic) {
-    mMusic = partyMusic;
-  }
-
   public int getPartyMusic() {
     return mMusic;
   }
 
-  public void setPartyEntertainment(int partyEntertainment) {
-    mEntertainment = partyEntertainment;
-  }
-
   public int getPartyEntertainment() {
     return mEntertainment;
-  }
-
-  public void setPartyGiveaway(int partyGiveaway) {
-    mGiveaway = partyGiveaway;
   }
 
   public int getPartyGiveaway() {
@@ -68,29 +52,29 @@ class Party {
 
   public int calculateFoodCost() {
     Integer[] foodCost = {0, 7, 12, 23};
-    mFood = foodCost[mFood] * mGuests;
-    return mFood;
+    partyFood = foodCost[mFood] * mGuests;
+    return partyFood;
   }
 
   public int calculateBeverageCost() {
     Integer[] beverageCost = {0, 2, 7, 1 };
-    mBeverages = beverageCost[mBeverages] * mGuests;
-    return mBeverages;
+    partyBeverages = beverageCost[mBeverages] * mGuests;
+    return partyBeverages;
   }
 
   public int calculateMusicCost() {
     Integer[] musicCost = {0, 300, 500, 1500 };
-    mMusic = musicCost[mMusic];
-    return mMusic;
+    partyMusic = musicCost[mMusic];
+    return partyMusic;
   }
 
   public int calculateEntertainmentCost() {
     Integer[] entertainmentCost = {0, 350, 1000, 0 };
-    mEntertainment = entertainmentCost[mEntertainment];
-    return mEntertainment;
+    partyEntertainment = entertainmentCost[mEntertainment];
+    return partyEntertainment;
   }
 
   public int calculateTotalCost() {
-    return mFood + mBeverages + mMusic + mEntertainment +  mGiveaway;
+    return partyFood + partyBeverages + partyMusic + partyEntertainment +  mGiveaway;
   }
 }

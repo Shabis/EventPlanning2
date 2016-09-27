@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="EventPlanningTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2016-09-09T23:36:21" hostname="epicodus-108.local" time="0.002">
+<testsuite name="EventPlanningTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2016-09-27T20:00:38" hostname="epicodus-21.local" time="0.006">
   <properties/>
-  <testcase name="EventPlanning_testRandomAnswers_Array" classname="EventPlanningTest" time="0.001"/>
-  <testcase name="EventPlanning_testRandomAnswersWithSecondNumberIncorrect_Array" classname="EventPlanningTest" time="0.0"/>
-  <testcase name="EventPlanning_testRandomAnswersWithThirdNumberCalculatingfromGuestTotal_Array" classname="EventPlanningTest" time="0.001"/>
+  <testcase name="testParty_calculateCostOfEntertainment_700" classname="EventPlanningTest" time="0.001"/>
+  <testcase name="getPartyGuests_getNumberOfGuest_200" classname="EventPlanningTest" time="0.0"/>
+  <testcase name="getPartyFood_getTotalCostofFood_1400" classname="EventPlanningTest" time="0.0"/>
+  <testcase name="EventPlanning_testRandomAnswers_Array" classname="EventPlanningTest" time="0.0"/>
+  <testcase name="testParty_calculateCostOfFood_700" classname="EventPlanningTest" time="0.0"/>
+  <testcase name="getPartyGiveaway_getGiveawayOfTheParty_2000" classname="EventPlanningTest" time="0.0"/>
+  <testcase name="getPartyMusic_getTotalCostOfMusic_300" classname="EventPlanningTest" time="0.0"/>
+  <testcase name="testParty_calculateCostOfBeverage_700" classname="EventPlanningTest" time="0.0"/>
+  <testcase name="testParty_calculateCostOfMusic_700" classname="EventPlanningTest" time="0.0"/>
+  <testcase name="getPartyName_getNameOfTheParty_String" classname="EventPlanningTest" time="0.001"/>
+  <testcase name="calculateTotalCost_findTotalCostOfEvent_5100" classname="EventPlanningTest" time="0.0"/>
+  <testcase name="getPartyBeverages_getTotalCostOfBeverages_400" classname="EventPlanningTest" time="0.001"/>
+  <testcase name="getPartyEntertainment_getTotalCostOfEntertainment_1000" classname="EventPlanningTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
