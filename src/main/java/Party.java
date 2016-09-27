@@ -68,25 +68,25 @@ class Party {
 
   public int calculateFoodCost() {
     Integer[] foodCost = {0, 7, 12, 23};
-    mFood += foodCost[mFood] * mGuests;
+    mFood = foodCost[mFood] * mGuests;
     return mFood;
   }
 
   public int calculateBeverageCost() {
     Integer[] beverageCost = {0, 2, 7, 1 };
-    mBeverages += beverageCost[mBeverages] * mGuests;
+    mBeverages = beverageCost[mBeverages] * mGuests;
     return mBeverages;
   }
 
   public int calculateMusicCost() {
     Integer[] musicCost = {0, 300, 500, 1500 };
-    mMusic += musicCost[mMusic];
+    mMusic = musicCost[mMusic];
     return mMusic;
   }
 
   public int calculateEntertainmentCost() {
     Integer[] entertainmentCost = {0, 350, 1000, 0 };
-    mEntertainment += entertainmentCost[mEntertainment];
+    mEntertainment = entertainmentCost[mEntertainment];
     return mEntertainment;
   }
 
